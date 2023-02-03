@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Color Scheme Generator</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Color Scheme Generator</title>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <div class="root">
+            <form id="color-form">
+                <input type="color" name="color" id="color" />
+                <select name="mode" id="mode"></select>
+                <button>Get color scheme</button>
+            </form>
+            <div id="scheme-container">
+                
+            </div>
+        </div>
+        <script type="module" src="./index.js"></script>
+    </body>
 </html>
